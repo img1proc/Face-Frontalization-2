@@ -1,8 +1,8 @@
 # Face-Frontalization-2 <p>
 Face Frpntalization (2) <p>
 (1)Face-Frontalization-2 , Kazuo Ohzeki<p>
-input=several images.jpg in img4F; process frontalization by two parameters(r and s);<p>
-output= frontalized images_r.jpg and images_s.jpg if succeeded in img4Fr and img4Fs;<p>
+input=several images.jpg in img6F; process frontalization by two parameters(r and s);<p>
+output= frontalized images_r.jpg and images_s.jpg if succeeded in img6Fr and img6Fs;<p>
 results: You can download result images by zip files <p>
 Prerequisites : google colabratory,  Run-time type =T4GPU or CPU-only <p>
 April 15th 2024 <p>
@@ -28,9 +28,10 @@ Structure of directory and files:<p>
 dlib_models--DataAlign2LFWa.<p>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  mat,eyemask.mat, <p>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  model3Ddlib.mat<p>
-img5F<p>
-img5Fr<p>
-img5Fs<p>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  shape_predictor_68_face_landmarks.dat.bz2<p>
+img6F<p>
+img6Fr<p>
+img6Fs<p>
 dataAlign2LFWa.mat<p>
 FF-files.zip<p>
 camera_calibration.py<p>
@@ -39,6 +40,6 @@ eyemask.mat<p>
 face_detector.py<p>
 face_feature_detect.py<p>
 frontalize.py<p>
-img5F.zip<p>
+img6F.zip<p>
 model3Ddlib.mat<p>
-test.jpg<p>
+test.jpg (not used in this sample)<p>
